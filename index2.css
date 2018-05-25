@@ -1,0 +1,71 @@
+
+
+body{display: flex;
+    justify-content: center;}
+
+
+#stage{
+    width:600px;
+    height:600px;
+    
+    /*border:1px dashed gray;*/
+
+    /*background-image:url("https://becodeorg.github.io/end-of-prairie-technical-drill/images/css_animation_exercise_4.png")*/
+   background-image:url("https://becodeorg.github.io/end-of-prairie-technical-drill/images/css_animation_exercise_stage.png")
+}
+#hero{
+    width:75px;
+    height:75px;
+    border:1px dashed red;
+    left:19px;
+    top:19px;
+    animation: drill 15s;
+    position: relative;
+}
+@keyframes drill {
+    0%{
+        left:19px;
+        
+    }
+    25%{
+        left:499px;
+       top:19px;
+       border-radius:0px;
+    }
+
+
+    35%{
+        left:499px;
+        top:199px;
+        transform:none;
+        border-radius:0px;
+        }
+
+   37.5%,47.5%{   
+            top:199px;
+            left:269px;
+            transform:rotate(45deg);
+            border-color:red;
+            border-radius:0px;
+    }
+    62.5%{
+        top:203px;
+        left:19px;
+        transform:rotate(90deg);
+        border-color:#0900BD;
+        border-radius:0px;
+        height:75px;
+        width:75px;
+        background:none;
+    }
+    87.5%,100%{
+        border-radius:100%;
+        color:rgb(255, 229, 133);
+        height:150px;
+        width:150px;
+        top:443px;
+        left:442px;
+        background:radial-gradient(#FBDA61,#F76B1C);
+        border-color:#F76B1C;
+    }
+}
