@@ -10,6 +10,7 @@ body{display: flex;
     
     /*border:1px dashed gray;*/
 
+   /*remove the comment tag below and replace it for the image just below to see the calc/*
     /*background-image:url("https://becodeorg.github.io/end-of-prairie-technical-drill/images/css_animation_exercise_4.png")*/
    background-image:url("https://becodeorg.github.io/end-of-prairie-technical-drill/images/css_animation_exercise_stage.png")
 }
